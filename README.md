@@ -1,2 +1,2 @@
 # forbitrixjoinsql
-SQL для статьи &lt;--> 
+SQL для статьи http://thisis-blog.ru/join-zaprosy-v-bitriks/
