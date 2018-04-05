@@ -63,13 +63,13 @@ INSERT INTO `CITYZEN` (`id`, `name`, `city_id`, `responsible`) VALUES
 -- Дамп структуры для таблица test.CITY_TYPE
 CREATE TABLE IF NOT EXISTS `CITY_TYPE` (
   `id` int(7) unsigned NOT NULL AUTO_INCREMENT,
-  `city_type` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='city_type';
 
 -- Дамп данных таблицы test.CITY_TYPE: ~8 rows (приблизительно)
 /*!40000 ALTER TABLE `CITY_TYPE` DISABLE KEYS */;
-INSERT INTO `CITY_TYPE` (`id`, `city_type`) VALUES
+INSERT INTO `CITY_TYPE` (`id`, `name`) VALUES
 	(1, 'самые малы'),
 	(2, 'малые'),
 	(3, 'полусредни'),
